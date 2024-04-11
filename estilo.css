@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(imagens/fundo.jpg);
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+.fundo{
+    background-color: rgba(0, 0, 0, 0.767);
+    text-align: center;
+    padding-top: 200px;
+    height: 100vh;
+}
+
+.subtitulo{
+    font-size: 26px;
+    font-weight: bold; /*negrito*/
+    font-family: 'Trebuchet MS';
+    letter-spacing: 2px; /*espaçamento das letras*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.destaque{
+    color:black;
+    background-color: white;
+    width: 400px;
+}
